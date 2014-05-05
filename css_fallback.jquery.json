@@ -1,0 +1,26 @@
+{
+    "name": "css_fallback",
+    "title": "jQuery CSS Fallback Plugin",
+    "description": "This plugin provides a fallback, for example, if you use a CDN for a CSS file.",
+    "keywords": [
+        "css",
+        "fallback"
+    ],
+    "version": "0.9.0",
+    "author": {
+        "name": "Ludger A. Rinsche",
+        "url": "http://helloludger.de/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "homepage": "https://github.com/HelloLudger/jquery-css_fallback",
+    "docs": "https://github.com/HelloLudger/jquery-css_fallback",
+    "download": "https://github.com/HelloLudger/jquery-css_fallback",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

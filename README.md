@@ -20,4 +20,4 @@ If not, the fallback CSS file will be attached to the head (cssFallback, probabl
 Ludger A. Rinsche. 
 
 ## License
-MIT  
+Released under [MIT license](http://opensource.org/licenses/MIT).

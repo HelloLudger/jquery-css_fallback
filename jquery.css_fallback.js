@@ -1,5 +1,5 @@
 /* 
- * jQuery cssFallback Plugin 
+ * jQuery CSS Fallback Plugin 
  * 
  * This plugin provides a fallback if you use a CDN for a CSS file. 
  * To use it, you need: 
@@ -37,7 +37,8 @@
         } 
 
 
-        $.cssFallback = { 
+        // Defaults are useless, at the moment.
+        $.cssFallback.defaults = {
                 'selector': '.button', 
                 'cssRule' : 'background-color', 
                 'cssValue': 'green', 
