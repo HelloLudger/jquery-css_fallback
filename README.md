@@ -24,6 +24,11 @@ Returns `true` if the fallback was used, `false`, if not.
 One problem with this plugin is, that if it kicks in, the order of the CSS files is changed, which could harm the styling.
 As a work-around, you can read the return value and reload the css files which need to be loaded after the tested file.
 
+## Upcoming / Planned
+* Parameters not using an object.
+* Example.
+* Tests.
+
 ## Tested with
 * IE 8
 * IE 11
