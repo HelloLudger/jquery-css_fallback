@@ -10,6 +10,20 @@ To use it, you need:
 The plugin checks if an existing element on the page has been successfully styled (selector, cssRule, cssValue). 
 If not, the fallback CSS file will be attached to the head (cssFallback, probably local). 
 
+## Usage
+    $.cssFallback({
+        'selector':    '.classname',
+        'cssRule':     'background-color',
+        'cssValue':    'green',
+        'cssFallback': 'url/to/fallback.css'
+    });
+
+Returns `true` if the fallback was used, `false`, if not.
+
+## Weakpoint
+One problem with this plugin is, that if it kicks in, the order of the CSS files is changed, which could harm the styling.
+As a work-around, you can read the return value and reload the css files which need to be loaded after the tested file.
+
 ## Tested with
 * IE 8
 * IE 11

@@ -31,8 +31,11 @@
                 if ($(settings.selector).first().css(settings.cssRule) != settings.cssValue) { 
 
                         $('<link rel="stylesheet" type="text/css" href="' + settings.cssFallback + '" />').appendTo('head'); 
+                        return true;
 
                 } 
+
+                return false;
 
         } 
 
